@@ -32,5 +32,4 @@ plt.legend(loc='best')
 plt.xlabel('N = 2^x')
 plt.ylabel('Turnaround time (ns)')
 plt.tight_layout()
-plt.show()
-
+plt.savefig("timings.png", dpi=300)
